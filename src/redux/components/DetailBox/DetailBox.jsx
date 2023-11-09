@@ -56,7 +56,7 @@ function DetailBox() {
         </tr>
         <tr>
           <StyledTh>CONTENTS</StyledTh>
-          <StyledTh></StyledTh>
+          <StyledTh>{todo?.contents}</StyledTh>
         </tr>
         <tr>
           <StyledTh>완료여부</StyledTh>
